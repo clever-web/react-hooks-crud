@@ -20,9 +20,9 @@ const AddUserForm = props => {
 				setUser(initialFormState)
 			}}
 		>
-			<label>Name</label>
+			<label>Name:</label>
 			<input type="text" name="name" value={user.name} onChange={handleInputChange} />
-			<label>Username</label>
+			<label>Username:</label>
 			<input type="text" name="username" value={user.username} onChange={handleInputChange} />
 			<button>Add new user</button>
 		</form>
